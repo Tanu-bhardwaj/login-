@@ -1,0 +1,123 @@
+/*applying the background image to the page*/
+body{
+	background-image: url("background.svg");
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+	
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+/*styling the box that holds the entire login and register part*/
+.container{
+	width: 30%;
+	height: 450px;
+	margin: 5% 30%;
+	position: relative;
+	box-shadow:  0px 0px 14px #51C3D85A;
+	border-radius: 10px;
+	
+}
+/*Working on the Welcome to Prixled heading*/
+.heading{
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-47) var(--unnamed-font-family-playfair-display);
+	letter-spacing: var(--unnamed-character-spacing-1-44);
+	color: var(--unnamed-color-2f509c);
+	text-align: center;
+	
+	font: normal normal normal 40px Playfair Display;
+	letter-spacing: 1.44px;
+	color: #2F509C;
+	opacity: 1;
+	padding-top: 10%;
+	margin-left: 2%;
+	margin-right: 4%;
+	padding-right: 2%;
+}
+/*the sub-heading that follows the main heading*/
+.sub-heading{
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 12px/22px var(--unnamed-font-family-montserrat);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-2f509c);
+	text-align: center;
+	font: normal normal normal 15px Montserrat;
+	letter-spacing: 0px;
+	color: #2F509C;
+	opacity: 1;
+	margin-top: -1.5em;
+}
+/*The following is for the "log-in with" text*/
+.login{
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/15px Arial;
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-2f509c);
+	text-align: center;
+	font: normal normal normal 13px/15px Arial;
+	letter-spacing: 0px;
+	color: #2F509C;
+	opacity: 1;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	margin-left: 1%;
+}
+/*the folowing is for the login with facebook button*/
+.facebook{
+	width: 55%;
+	height: 45px;
+	background: #3B5998 0% 0% no-repeat padding-box;
+	border: 1.2px solid #3B5998;
+	border-radius: 10px;
+	opacity: 1;
+	margin-left: 20%;
+	color: white;
+}
+/*the following is for the log-in with gmail button*/
+.gmail{
+	width: 55%;
+	height: 45px;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #F1584D;
+	border-radius: 10px;
+	opacity: 1;
+	margin-left: 20%;
+}
+/*this is for the icon used in gmail which is an image in .svg format*/
+.gmail-icon{
+	width: 20px;
+	height: 15px;
+}
+/*styling the e-mail box*/
+.email{
+	width: 55%;
+	height: 45px;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #4F5E7B;
+	border-radius: 10px;
+	margin-left: 20%;
+	opacity: 1;
+	padding-left: -5px;
+}
+/*the following is for the "Dont have an account text"*/
+.register{
+	width: 50%;
+	height: 15px;
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-2f509c);
+	text-align: center;
+	letter-spacing: 0px;
+	color: #2F509C;
+	opacity: 1;
+	margin-left: 23%;
+	font: normal normal normal Playfair Display;
+	padding-bottom: 10%;
+}
+/*the following is for the hyperlink register*/
+.register a{
+	color: #2F509C;
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-2f509c);
+	text-decoration: none;
+}
